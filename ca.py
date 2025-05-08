@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image
 
 # Display logo
-logo = Image.open("/Users/dhruvin/Desktop/MC logo.jpg")
+logo = Image.open("MC logo.jpg")
 st.sidebar.image(logo, width=120)
 
 # Load the dataset
