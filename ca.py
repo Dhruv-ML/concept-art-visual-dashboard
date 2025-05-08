@@ -8,7 +8,7 @@ logo = Image.open("MC logo.jpg")
 st.sidebar.image(logo, width=120)
 
 # Load the dataset
-ca = pd.read_csv('/Users/dhruvin/Desktop/My Desktop/Sourcing Analysis/concept art/CAlist.csv', encoding='latin-1')
+ca = pd.read_csv('CAlist.csv', encoding='latin-1')
 
 # Preprocess
 ca['Concept Art Experience'] = pd.to_numeric(ca['Concept Art Experience'], errors='coerce')
